@@ -1,0 +1,46 @@
+/* pages/sort/sort.wxss */
+.icon{
+  width: 220rpx;
+  height: 220rpx;
+  margin: 20rpx 40rpx;
+  border-radius: 20rpx;
+}
+.padding-sm{
+  width: 100%;
+}
+.top-view{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70rpx;
+}
+
+.bg-darkGray {
+	background-color:  #f6f6f6;
+	color:#ffffff;
+}
+.cu-bar .search-form {
+  background-color:  #ffffff;
+}
+.cu-bar{
+  margin-top: 20rpx;
+}
+
+#text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#13227a;
+}
+
+.bg-darkGray {
+	background-color:  #f6f6f6;
+	color:#ffffff;
+}
+.cu-bar .search-form {
+  background-color:  #ffffff;
+}
+.cu-bar{
+  margin-top: 20rpx;
+}

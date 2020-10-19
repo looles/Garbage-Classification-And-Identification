@@ -1,0 +1,25 @@
+/* pages/ai/filter/filter.wxss */
+.filter-view {
+  display: flex;
+  flex-direction: column;
+}
+.item-view{
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx 50rpx;
+  height: 90rpx;
+  align-items: center;
+}
+.img{
+  height: 60rpx;
+  width: 60rpx;
+  margin-right: 30rpx;
+}
+.item-o{
+  background-color: #ffffff;
+  color:#666666;
+}
+.item-ji {
+  background-color:  #9acfe1;
+	color:white;
+}

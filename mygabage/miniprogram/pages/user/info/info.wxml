@@ -1,0 +1,10 @@
+<!--pages/user/info/info.wxml-->
+<!-- <text>pages/user/info/info.wxml</text> -->
+<!-- 如果只是展示用户头像昵称，可以使用 <open-data /> 组件 -->
+<view class="container">
+  <view class="name">{{name}}</view>
+  <view class="gender">{{gender}}</view>
+  <view class="city">{{city}}</view>
+  <view class="province">{{province}}</view>
+</view>
+

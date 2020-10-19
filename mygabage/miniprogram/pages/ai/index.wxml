@@ -1,0 +1,34 @@
+<!--pages/ai/index.wxml-->
+<!-- <text>pages/ai/index.wxml</text> -->
+<view>
+  <!-- 
+indicator-dots='true':是否显示面板指示点,默认为false
+indicator-color='red':指示点颜色
+indicator-active-color='yellow':当前选中的指示点颜色
+autoplay='true':是否自动切换
+ -->
+  <swiper indicator-dots='true' indicator-color='red' indicator-active-color='yellow' autoplay='true'>
+    <swiper-item>
+      <image src='../../images/lunbotu1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/lunbotu2.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/lunbotu3.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/lunbotu4.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class="cu-bar bg-darkGray search">
+  <view class="search-form round" bindtap="goSearch">
+    <text class="cuIcon-search text-green"></text>
+    <input type="text" placeholder="输入垃圾名称" confirm-type="search" bindinput="searchIcon"></input>
+  </view>
+</view>
+<view class="ai-view">
+  <image src="../../images/paizhao.png" class="ai-paizhao" bindtap="onBindCamera"></image>
+  <text>拍照识别</text>
+</view>

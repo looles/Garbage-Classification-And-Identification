@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ai/index",
+    "pages/sort/sort",
+    "pages/ai/search",
+    "pages/ai/camera/camera",
+    "pages/ai/filter/filter",
+    "pages/result/list",
+    "pages/user/user",
+    "pages/result/commit",
+    "pages/selfinformation/selfinformation"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00cc77",
+    "navigationBarTitleText": "gabage",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/ai/index",
+        "text": "识别",
+        "iconPath": "images/shibie.png",
+        "selectedIconPath": "images/icon_ai.png"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "text": "分类",
+        "iconPath": "images/icon_sort_default.png",
+        "selectedIconPath": "images/icon.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "images/user_1.png",
+        "selectedIconPath": "images/yonghu.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

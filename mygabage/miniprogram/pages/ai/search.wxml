@@ -1,0 +1,17 @@
+<!--miniprogram/pages/ai/search.wxml-->
+<!-- <text>miniprogram/pages/ai/search.wxml</text> -->
+<view class="cu-bar bg-darkGray search">
+  <view class="search-form round">
+    <text class="cuIcon-search text-green"></text>
+    <input type="text" placeholder="输入垃圾名称" confirm-type="search" focus="{{true}}" bindconfirm="searchIcon"></input>
+  </view>
+</view>
+
+<view class="filter-view" data-index="{{data.index}}">
+<view class="item-view item-ji bg-grey">
+  <image class="img" wx:if="{{index==1}}" src="/images/RecycleableWaste.jpg"></image>
+  <image class="img" wx:if="{{index==2}}" src="/images/HazardouAwaste.jpg"></image>
+  <image class="img" wx:if="{{index==3}}" src="/images/HouseholdfoodWaste.jpg"></image>
+  <image class="img" wx:if="{{index==4}}" src="/images/ResidualWaste.png"></image>
+</view>
+</view>

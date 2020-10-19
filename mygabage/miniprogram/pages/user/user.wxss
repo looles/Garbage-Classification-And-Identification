@@ -1,0 +1,73 @@
+/* pages/user/user.wxss */
+.container{
+  display:flex;
+  width: 100%;
+  background-color: #15c261;
+  align-items: center;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+ 
+.userinfo-avatar {
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 30rpx;
+  margin-right: 80rpx;
+  border-radius: 50%;
+}
+ 
+.userinfo-nickname {
+  color: #32d423ee;
+  font-size: 42rpx;
+}
+
+.context1{
+  width: 100%;
+  height: 100px;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  flex-wrap:nowrap;
+  margin-bottom:20px; 
+  position: absolute;
+  top: 150px;
+  border-width: 3px;
+  border-color: chartreuse;
+}
+
+.context2{
+  width: 100%;
+  height: 100px;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  flex-wrap:nowrap;
+  margin-bottom:20px; 
+  position: absolute;
+  top: 300px;
+  border-width: 3px;
+  border-color: chartreuse;
+}
+
+
+
+.box{
+  width: 30.5%;
+  margin: 5px;
+  height: 100px;
+ 
+}
+.img{
+  width: 65%;
+  height: 65%;
+}
+
+

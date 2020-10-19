@@ -1,0 +1,18 @@
+<!--pages/index/index.wxml-->
+<!-- <text>pages/index/index.wxml</text> -->
+
+<view class="container">
+
+  <view class="userinfo">
+    <button 
+    open-type="getUserInfo"
+    bindgetuserinfo="onGetUserInfo"
+    class="userinfo-avatar"
+    style="background-image:url({{avatarUrl}}"
+    ></button>
+    <view>
+      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取openid</button>
+    </view>
+  </view>
+
+</view>

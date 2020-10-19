@@ -1,0 +1,41 @@
+<!--pages/user/user.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <open-data type="userAvatarUrl" class="userinfo-avatar" mode="cover"></open-data>
+    <open-data type="userNickName" lang="zh_CN" class="userinfo-nickname"></open-data>
+  </view>
+  <view class="context1">
+    <view class="box" bindtap='onClick'>
+      <image class='img' src="../../images/lianxiwomen.png"></image>
+      <view>联系我们</view>
+    </view>
+    <view class="box">
+      <image class='img' src="../../images/xiaochengxuma.png" bindtap='buttonTap'></image>
+      <modal title="小程序码" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+        <view>
+          <image class="image" src="../../images/routine.jpg" mode='aspectFill'></image>
+        </view>
+      </modal>
+      <view>小程序码</view>
+    </view>
+  </view>
+  <view class="context2">
+    <view class="box" bindtap='getUpload'>
+      <image class='img' src="../../images/shangchuan.png"></image>
+      <view>点我上传</view>
+    </view>
+    <view class="box" bindtap='getMyself'>
+      <image class='img' src="../../images/wodexinxi.png"></image>
+      <view>我的信息</view>
+    </view>
+    <view class="box" bindtap='detail'>
+      <image class="img" src="../../images/guanyuxiaochengxu.png"></image>
+      <view>关于小程序</view>
+    </view>
+  </view>
+</view>
+<!-- <view>
+  <open-data type="userGender"></open-data>
+  <open-data type="userCity"></open-data>
+  <open-data type="userCountry"></open-data>
+</view> -->
