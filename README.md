@@ -8,13 +8,12 @@
 感谢所有赞助过本项目的朋友，你们都为本项目贡献了自己的一份力量
 
 <details>
-
 <summary>微信二维码</summary>
-<img width="300" src="https://github.com/LooleS/LooleS.github.io/blob/master/images/payimg/weipayimg.jpg" alt="wechat">
+<img width="300" src="/mygabage/miniprogram/images/weipayimg.jpg" alt="wechat">
 </details>
 
 <details>
 
 <summary>支付宝二维码</summary>
-<img width="300" src="https://github.com/LooleS/LooleS.github.io/blob/master/images/payimg/alipayimg.jpg" alt="alipay">
+<img width="300" src="/mygabage/miniprogram/images/alipayimg.jpg" alt="alipay">
 </details>
