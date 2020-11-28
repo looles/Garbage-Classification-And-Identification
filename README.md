@@ -14,6 +14,8 @@
 
 感谢所有赞助过本项目的朋友，你们都为本项目贡献了自己的一份力量
 
+#具体教程请访问[博客连接]()
+
 <details>
 <summary>微信二维码</summary>
 <img width="300" src="/mygabage/miniprogram/images/weipayimg.jpg" alt="wechat">
