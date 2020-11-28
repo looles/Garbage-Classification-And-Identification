@@ -25,3 +25,5 @@
 <summary>支付宝二维码</summary>
 <img width="300" src="/mygabage/miniprogram/images/alipayimg.jpg" alt="alipay">
 </details>
+
+
